@@ -16,20 +16,22 @@
          event.preventDefault();
          var number1 = parseInt($("#x").val());
 var number2 = parseInt($("#y").val());
-         alert(add(number1, number2));
+         var result=add(number1, number2);
+         $("#output").text(result);
         })
          $("#subtract").submit(function(event){
           event.preventDefault();
           var number1 = parseInt($("#x").val());
  var number2 = parseInt($("#y").val());
-          alert(subtract(number1, number2));
-          preventDefault();
+          var result=subtract(number1, number2);
+          $("#output").text(result);
         })  
         $("#multiply").submit(function(event) {
           event.preventDefault();
           var number1 = parseInt($("#x").val());
  var number2 = parseInt($("#y").val());
-          alert(multiply(number1, number2));
-          preventDefault();
+          var result= multiply(number1, number2);
+          $("#output").text(result);
+          
         })
      })    
