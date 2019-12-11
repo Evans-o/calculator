@@ -5,10 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="jss/script.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
-    <h1>CALCULATOR</h1>
-
+    <h1>Calculator</h1>
+    <form id="add" id="subtract">
+      <div class="form-group"> <label for="add1">1st number:</label> <input id="x" class="form-control" type="text"> </div>
+      <div class="form-group"> <label for="add2">2nd number:</label> <input id="y" class="form-control" type="text"> </div>
+      <button type="submit" class="btn">Add!</button> 
+   </form>
+   <form id="subtract">
+        <button type="submit">subtract</button>
+     </form>
+     <form id="multiply">
+         <button type="submit">multiply</button>
+     </form>
 </body>
 </html>
