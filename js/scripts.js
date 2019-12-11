@@ -32,6 +32,4 @@ var number2 = parseInt($("#y").val());
           alert(multiply(number1, number2));
           preventDefault();
         })
-        }
-
      })    
