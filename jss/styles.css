@@ -4,10 +4,20 @@
     bottom:15px;
     
 }
+#total{
+    font-size:14px;
+    font-weight: bold;
+    position:relative;
+    bottom:14px;
+}
 #output{
     position:relative;
-    top:23px;
-    right:125px;
+    top:38px;
+    right:65px;
+    visibility: visible;
+    font-size:14px;
+    font-weight: bolder;
+    margin-top:2px;
 }
 #ad{
     position:relative;
@@ -18,15 +28,6 @@
     left:120px;
     bottom:38px;
 }
-#show-contact {
-    display: none;
-  }
-  
-  .contact {
-    cursor: pointer;
-    color: #0088cc;
-  }
-  
-  .contact:hover {
-    text-decoration: underline;
-  }  
+#fixed{
+    position:sticky;
+}
