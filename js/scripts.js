@@ -12,7 +12,7 @@
       return number1 / number2;
      };
      $(document).ready(function() {
-       $("form#add").submit(function(event){
+       $("#add").submit(function(event){
          event.preventDefault();
          var number1 = parseInt($("#x").val());
 var number2 = parseInt($("#y").val());

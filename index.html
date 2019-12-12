@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="jss/styles.css">
      <link href="css/styles.css" rel="stylesheet" type="text/css">
      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="jss/script.js"></script>
@@ -14,19 +14,52 @@
 </head>
 <body>
     <h1>Calculator</h1>
-    <form id="add" id="subtract">
+    
+    <form id="add">
       <div class="form-group"> <label for="add1">1st number:</label> <input id="x" class="form-control" type="text"> </div>
       <div class="form-group"> <label for="add2">2nd number:</label> <input id="y" class="form-control" type="text"> </div>
-      <button type="submit" class="btn">Add!</button> 
+      <di id="ad">
+      <button class="btn">Add!</button> 
    </form>
-   <div id="output"></div>
-   <form id="subtract">
+   </di>
+   <div id="sub">
+       <form id="subtract">
         <button type="submit">subtract</button>
-     </form>
-     <div id="output"></div>
+       </form>
+    </div>
+    <div id="multi">
      <form id="multiply">
          <button type="submit">multiply</button>
      </form>
-     <div id="output"></div>
+<div id="output"></div>
+    </div>
+     
+     <h1>Address book</h1>
+       <div class="row">
+        <div id="show-contact">
+            <h2>add a contact</h2>
+        
+            <p>First name: <span class="first-name"></span></p>
+            <p>Last name: <span class="last-name"></span></p>
+          <form id="contact">
+            <div class="form-group">
+              <label for="fisrtname">First name</label>
+              <input type="text" class="form-control" id="firstname">
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last name</label>
+              <input type="text" class="form-control" id="lastname">
+            </div>
+
+            <button type="submit" class="btn">Add</button>
+          </form>
+
+          <h2>Contacts:</h2>
+          <ul id="contacts">
+
+          </ul>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
