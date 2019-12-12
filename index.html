@@ -37,33 +37,31 @@
     Totall =
     </div>
     <br><br>
-     <div id=fixed">
-     <h1>Address book</h1>
-       <div class="row">
-        <div id="show-contact">
-            <h2>add a contact</h2>
-        
-            <p>First name: <span class="first-name"></span></p>
-            <p>Last name: <span class="last-name"></span></p>
-          <form id="contact">
-            <div class="form-group">
-              <label for="fisrtname">First name</label>
-              <input type="text" class="form-control" id="firstname">
+    
+    <div class="container">
+            <h1>Address book</h1>
+             <div class="row">
+              <div class="col-md-6">
+                <h2>Add a contact:</h2>
+                <form id="contact">
+                  <div class="form-group">
+                    <label for="firstname">First name</label>
+                    <input type="text" class="form-control" id="firstname">
+                  </div>
+                  <div class="form-group">
+                    <label for="lastname">Last name</label>
+                    <input type="text" class="form-control" id="lastname">
+                  </div>
+      
+                  <button type="submit" class="btn">Add</button>
+                </form>
+      
+                <h2>Contacts:</h2>
+                <ul id="contacts">
+                </ul>
+              </div>
             </div>
-            <div class="form-group">
-              <label for="lastname">Last name</label>
-              <input type="text" class="form-control" id="lastname">
-            </div>
-
-            <button type="submit" class="btn">Add</button>
-          </form>
-        
-          <h2>Contacts:</h2>
-          <ul id="contacts">
-
-          </ul>
-        </div>
-      </div>
-    </div>
+          </div>
+          
 </body>
 </html>
